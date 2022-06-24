@@ -16,11 +16,18 @@ public class InventorySystem : MonoBehaviour
     public Dictionary<Item, int> items = new Dictionary<Item, int>();
     public ItemSlot[] itemSlots;
 
+    public Item giveItem;
+
     private void Start ()
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
             itemSlots[i].ClearSlot();
+        }
+
+        for (int i = 0; i < 100; i++)
+        {
+            GetItem(giveItem);
         }
     }
 

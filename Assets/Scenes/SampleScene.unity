@@ -1269,6 +1269,7 @@ MonoBehaviour:
   - {fileID: 666161798}
   - {fileID: 104449456}
   - {fileID: 1492879709}
+  giveItem: {fileID: 11400000, guid: d694876387fa271d391bbd01afc8ef9f, type: 2}
 --- !u!1001 &1480905286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1843,9 +1844,9 @@ MonoBehaviour:
   grassBlockPrefab: {fileID: 8425845980977557947, guid: 417632d6efcf63c81a58d1544b5b2f0c, type: 3}
   stoneBlockPrefab: {fileID: 8425845980977557947, guid: a1052096057e91e789aa6db57a700e5b, type: 3}
   terrainSize: {x: 40, y: 40}
-  terrainHeight: 3
+  terrainHeight: 7
   terrainDepth: -3
-  terrainScale: 10
+  terrainScale: 8
 --- !u!4 &1695378345
 Transform:
   m_ObjectHideFlags: 0
